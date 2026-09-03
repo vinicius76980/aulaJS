@@ -39,28 +39,28 @@
 //}   
 
 
-const lanches = [
-
-{produto: "Batata",  preco:20.90 , quantidade: 1 } ,
-{produto: "Hanburguer", preco:30.00 , quantidade: 1 } ,
-{produto: "Refri",  preco:9.00 , quantidade: 1  } ,
-{produto: "Nugget",  preco:13.50 , quantidade: 1 } ,
-]
-
-const preco = [30.00,]
-const MaiorPreco = MaiorPreco;(preco)
- 
-console.log(MaiorPreco)
-
-for (const item of lanches){
-console.log(item.produto)
-console.log(item.quantidade * item.preco)
-}
-let totalGeral = 0;
-
-for (const item of lanches) {
-  totalGeral += item.quantidade * item.preco;
-}
-
-console.log("Total geral: " + totalGeral);
+//const lanches = [
+//
+//{produto: "Batata",  preco:20.90 , quantidade: 1 } ,
+//{produto: "Hanburguer", preco:30.00 , quantidade: 1 } ,
+//{produto: "Refri",  preco:9.00 , quantidade: 1  } ,
+//{produto: "Nugget",  preco:13.50 , quantidade: 1 } ,
+//]
+//
+//const preco = [30.00,]
+//const MaiorPreco = MaiorPreco;(preco)
+// 
+//console.log(MaiorPreco)
+//
+//for (const item of lanches){
+//console.log(item.produto)
+//console.log(item.quantidade * item.preco)
+//}
+//let totalGeral = 0;
+//
+//for (const item of lanches) {
+//  totalGeral += item.quantidade * item.preco;
+//}
+//
+//console.log("Total geral: " + totalGeral);
 

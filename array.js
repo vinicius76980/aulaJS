@@ -47,67 +47,8 @@
 //consolfe.log("Maior nota:" + maiorNota)
 
 
-const pessoa = {
-
-    nome: "Lucas",
-    idade: 33,
-    email: "email@teste.com",
-    genero: "497.755.999-99"
-}
-
-console.log(pessoa)
-console.log(pessoa.nome)
-console.log(pessoa["idade"])
-
-for (const chave in pessoa){
-
-console.log(pessoa[chave])
-
-
-}
-
-
-const aluno = {
-
-nome: "Ana",
-matricula: "202609021",
-curso: "JavaScript",
-nota: 9.5
-
-}
-
-console.log("Dados do Aluno:\n")
-
-for( const chave in aluno){
-
-const valor = aluno[chave]
- console.log("chave:" + chave + "valor:" + valor )    
-}
-  
-
-const carrinho =  
 
 
 
     
-[
-    
-    {prodoto:"calca jeans",  preco: 60.90, quantidade: 2 },
-    
-    
-    
-    
-    
-    
-    
-    {prodoto:"tenis", preco: 60.90, quantidade: 2 },] 
-
-
-    for (const itemDoMercado of carrinho){
-
-        console.log(itemDoMercado.produto)
-        console.log(itemDoMercado.preco)
-
-
-    }
 
